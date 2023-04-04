@@ -17,7 +17,7 @@ const Fitness = () => {
   const adds = require('../../Api-Data/fitness/adds-data.json');
   const videos = require('../../Api-Data/fitness/videos.json');
   const posts = require('../../Api-Data/fitness/topposts.json')
-  const Fitness = require('../../Api-Data/fitness-data.json')
+  // const Fitness = require('../../Api-Data/fitness-data.json')
   const [data, setData] = useState([]);
 
   useEffect(() => {
